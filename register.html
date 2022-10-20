@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="navigation.css"/>
+	<style type="text/css">
+		body{
+			background-color: cadetblue;
+			background-image: url(https://img.freepik.com/free-vector/online-registration-concept-background_23-2147984851.jpg?w=2000);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 30% 70%;
+		}
+		.name,.email,.pass1,.pass2,.number,.birth,.address{
+			width: 25%;
+			padding: 1%;
+			margin-bottom: 1%;
+		}
+		.signup,.reset{
+			width: 15%;
+			padding: 1%;
+			background-color: lightgrey;
+		}
+		.name{
+			margin-top: 1%;
+		}
+	</style>
+</head>
+<body>
+	<form action="login.html">
+		<nav class="navigation">
+			<a href="register.html">Register</a>
+			<a href="login.html">Login</a>
+			<a href="biography.html">Biography</a>
+		</nav>
+		<h1 class="heading">Registration page</h1>
+		<p><input class="name"placeholder="enter name"type="text"/></p>
+		<p><input class="email"placeholder="enter email id" type="email"/></p>
+		<p><input class="pass1" placeholder="enter password"type="password"/></p>
+		<p><input class="pass2" placeholder="confirm password"type="password"/></p>
+		<p><input class="number" placeholder="enter contact number"type="number"/></p>
+		<p><input class="birth" placehoder="date of birth"type="date"/></p>
+		<p>
+			<input class="gender1"type="radio" name="gender"value="male"/>male
+			<input class="gender2"type="radio" name="gender"value="female"/>female
+		</p>
+		<p><input class="address"placeholder="address"type="text"/></p>
+		<p>
+			<button class="signup">signup</button>
+			<input class="reset" type="reset"/>
+		</p>
+	</form>
+</body>
+</html>
